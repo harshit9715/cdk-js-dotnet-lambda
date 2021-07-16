@@ -5,16 +5,20 @@
     "js_cdk_dotnet_lambda": "bin/js_cdk_dotnet_lambda.js"
   },
   "scripts": {
-    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "build:FooLambda": "cd src/lambdas/FooLambda;dotnet publish -o publish",
+    
+    "build": "npm-run-all build:FooLambda",
     "cdk": "cdk",
     "test": "jest"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.114.0",
     "aws-cdk": "1.114.0",
-    "jest": "^26.4.2"
+    "jest": "^26.4.2",
+    "npm-run-all": "^4.1.5"
   },
   "dependencies": {
+    "@aws-cdk/aws-lambda": "^1.114.0",
     "@aws-cdk/core": "1.114.0"
   }
 }

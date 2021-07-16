@@ -1,0 +1,7 @@
+/home/harshit/Downloads/jsCDK_dotnetLambda/src/lambdas/FooLambda/publish/FooLambda.dll
+/home/harshit/Downloads/jsCDK_dotnetLambda/src/lambdas/FooLambda/publish/FooLambda.deps.json
+/home/harshit/Downloads/jsCDK_dotnetLambda/src/lambdas/FooLambda/publish/FooLambda.runtimeconfig.json
+/home/harshit/Downloads/jsCDK_dotnetLambda/src/lambdas/FooLambda/publish/FooLambda.pdb
+/home/harshit/Downloads/jsCDK_dotnetLambda/src/lambdas/FooLambda/publish/Amazon.Lambda.APIGatewayEvents.dll
+/home/harshit/Downloads/jsCDK_dotnetLambda/src/lambdas/FooLambda/publish/Amazon.Lambda.Core.dll
+/home/harshit/Downloads/jsCDK_dotnetLambda/src/lambdas/FooLambda/publish/Amazon.Lambda.Serialization.SystemTextJson.dll

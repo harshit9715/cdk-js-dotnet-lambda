@@ -1,0 +1,7 @@
+/home/harshit/Downloads/TransportNetCDK-master/FooLambda/publish/FooLambda.dll
+/home/harshit/Downloads/TransportNetCDK-master/FooLambda/publish/FooLambda.deps.json
+/home/harshit/Downloads/TransportNetCDK-master/FooLambda/publish/FooLambda.runtimeconfig.json
+/home/harshit/Downloads/TransportNetCDK-master/FooLambda/publish/FooLambda.pdb
+/home/harshit/Downloads/TransportNetCDK-master/FooLambda/publish/Amazon.Lambda.APIGatewayEvents.dll
+/home/harshit/Downloads/TransportNetCDK-master/FooLambda/publish/Amazon.Lambda.Core.dll
+/home/harshit/Downloads/TransportNetCDK-master/FooLambda/publish/Amazon.Lambda.Serialization.SystemTextJson.dll

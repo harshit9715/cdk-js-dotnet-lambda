@@ -1,12 +1,15 @@
-# Welcome to your CDK JavaScript project!
+# Welcome to your CDK JavaScript project that deploys dotnet lambdas!
 
-This is a blank project for JavaScript development with CDK.
+- Infrastructure is in javascript
+- Lambda is written in dotnet 3.1
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app. The build step is not required when using JavaScript.
+## Building the dotnet code
 
-## Useful commands
+- when adding a new lambda add its build script command in [package.json](./package.json) eg: `"build:FooLambda2": "cd src/lambdas/FooLambda2;dotnet publish -o publish"`
+- also add its name in the list of build command in [package.json](./package.json) eg: `npm-run-all build:FooLambda build:FooLambda2`
 
- * `npm run test`         perform the jest unit tests
- * `cdk deploy`           deploy this stack to your default AWS account/region
- * `cdk diff`             compare deployed stack with current state
- * `cdk synth`            emits the synthesized CloudFormation template
+## Deploying with CDK
+
+infrastructure is in javascript so for adding your lambda to be deployed along with infrastructure. add it in [lambda-stack](./lib/infrastructure/lambda-stack.js)
+
+Before running cdk commands, make sure to build the code.

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "UV8SpkeNjjd9z1tEr7wIY1Fn4ZnS98cwSatjWsqc3BV+0E1b/ZBzvNQ+XykKKyVFYa5llq51Teo8RWaQ35AoEQ==",
+  "success": true,
+  "projectFilePath": "/home/harshit/Downloads/jsCDK_dotnetLambda/src/lambdas/FooLambda/FooLambda.csproj",
+  "expectedPackageFiles": [
+    "/home/harshit/.nuget/packages/amazon.lambda.apigatewayevents/2.4.0/amazon.lambda.apigatewayevents.2.4.0.nupkg.sha512",
+    "/home/harshit/.nuget/packages/amazon.lambda.core/1.2.0/amazon.lambda.core.1.2.0.nupkg.sha512",
+    "/home/harshit/.nuget/packages/amazon.lambda.serialization.systemtextjson/2.1.0/amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+    "/home/harshit/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/harshit/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
