@@ -7,8 +7,10 @@
 
 - Build all lambdas with `npm run build`
 
-- when adding a new lambda add its build script command in [package.json](./package.json) eg: `"build:FooLambda2": "cd src/lambdas/FooLambda2;dotnet publish -o publish"`
-- also add its name in the list of build command in [package.json](./package.json) eg: `npm-run-all build:FooLambda build:FooLambda2`
+- when adding a new lambda:
+  - code for the lambda will go inside src/lambdas/<LambdaName>/
+  - Add its build script command in [package.json](./package.json) eg: `"build:FooLambda2": "cd src/lambdas/FooLambda2;dotnet publish -o publish"`
+  - also add its name in the list of build command in [package.json](./package.json) eg: `npm-run-all build:FooLambda build:FooLambda2`
 
 ## Deploying with CDK
 
